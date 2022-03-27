@@ -1,0 +1,120 @@
+.filterContainer{
+  border: solid blue;
+  border-width: thick;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Black{
+width: 100%;
+height: 200%;
+}
+
+.Title{
+text-align:center;
+font-family: cursive;
+font-style:italic;
+}
+
+.Racism{
+text-align:center;
+}
+.End{
+font-style: italic;
+font-family: cursive;
+}
+
+.Picture1{
+position: absolute;
+width: 50%;
+height: 50%;
+right: 200px;
+top: 100px;
+left: 300px;
+animation: Picture1 5s;
+animation-iteration-count: 1;
+animation-duration: 5s;
+}
+@keyframes Picture1{
+from {left: 0px;}
+to{right: 200px;}
+100%{filter:invert(0%);}
+0%{filter:invert(100%);}
+}
+
+.MSG{
+  position: absolute;
+    top:40%;
+    bottom: 40%;
+    left:20%;
+    right:20%;
+    text-align: center;
+    animation: Messages 10s infinite;
+}
+@keyframes Messages{
+0%{transform: scale(1) translate(0,0);}
+25%{transform:scale(0.3); color:#18ffff;}
+50%{transform:scale(2) translate(100px,50px); color: #e5ffff;}
+75%{transform:scale(0.5); color:#81b9bf;}
+100%{transform:scale(0) translate(-200px,-300px); color:#43eeee;}
+}
+
+.MSG2{
+position:absolute;
+top:10%;
+bottom:70%;
+left: 10%;
+right: 110%;
+animation: Messages2 10s infinite;
+}
+@keyframes Messages2{
+  0%{transform: scale(1) translate(0,0);}
+  25%{transform:scale(0.3); color:#606060;}
+  50%{transform:scale(2) translate(100px,50px); color: #8d8d8d;}
+  75%{transform:scale(0.5); color:#363636;}
+  100%{transform:scale(0) translate(-200px,-300px); color:#eeeeee;}
+}
+
+.MSG3{
+  position:absolute;
+  bottom:10%;
+  left: 10%;
+  right: 110%;
+  animation: Messages3 10s infinite;
+}
+@keyframes Messages3{
+  0%{transform: scale(70) translate(0,0);}
+  25%{transform:scale(0.3); color:#ffff00;}
+  50%{transform:scale(2) translate(100px,50px); color: #ffff5a;}
+  75%{transform:scale(0.5); color:#c7cc00;}
+  100%{transform:scale(0) translate(-200px,-300px); color:#ffff8d;}
+}
+
+.MSG4{
+position: absolute;
+bottom: 50%;
+right: 60%;
+animation: Message4 10s infinite;
+}
+@keyframes Message4{
+  0%{transform: scale(3) translate(0,0);}
+  25%{transform:scale(0.3); color:#97e6ff;}
+  50%{transform:scale(2) translate(100px,50px); color: #ff77ab;}
+  75%{transform:scale(0.5); color:#b388ff;}
+  100%{transform:scale(0) translate(-200px,-300px); color:#ccdb37;}
+}
+
+.MSG5{
+position: absolute;
+bottom: 30%;
+right: 20%;
+left: 20%;
+animation: Message5 10s infinite;
+}
+@keyframes Message5{
+  0%{transform: scale(10) translate(0,0);}
+  25%{transform:scale(0.3); color:yellow;}
+  50%{transform:scale(2) translate(100px,50px); color: purple;}
+  75%{transform:scale(0.5); color:brown;}
+  100%{transform:scale(0) translate(-200px,-300px); color:white;}
+}
