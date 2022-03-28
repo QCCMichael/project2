@@ -18,10 +18,17 @@ font-style:italic;
 
 .Racism{
 text-align:center;
+font-style: italic;
+font-family: cursive;
 }
 .End{
 font-style: italic;
 font-family: cursive;
+}
+.paragraph{
+font-style: italic;
+font-family: cursive;
+font-weight: bold;
 }
 
 .Picture1{
